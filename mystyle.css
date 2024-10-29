@@ -1,0 +1,157 @@
+
+/* CSS For Global */
+
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(resources/Background.jpg);
+    font-family: Garamond, serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #d6d1d1;
+}
+
+header {
+    background: #855940;
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+    color: rgb(33, 231, 155);
+    position: sticky;
+    top: 0px;
+}
+
+.Navigationbar {
+    position: sticky;
+    top: 0px;
+    background-color: #cea05b;
+    padding: 15px;
+    text-align: center;
+    float: left;
+    width: 10%;
+    height: 100vh;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.UnOrderlistbar {
+    list-style: none;
+    margin: 0;
+    padding: 20px;
+}
+
+.Link-Text {
+    display: block;
+    margin-top: 10px;
+    font-size: 16px;
+    color: #333;
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+/* CSS For Global END*/
+
+/*-----------------------------------------*/
+/*-----------------------------------------*/
+/*-----------------------------------------*/
+
+/* CSS For Homepage */
+
+.HomePictureRight {
+    float: right;
+    margin-left: 20px;
+    max-width: 300px;
+    height: auto; 
+    width: 50%;
+}
+
+section {
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+.HomeIGLink {
+    color: #1e90ff;
+    text-decoration: none;
+    text-align: center;
+}
+
+.HomeIGIcon {
+    width: 64px;
+    height: 64px;
+}
+
+.HomeIGLogo {
+    display: flex;
+    justify-content: center;
+}
+
+/* CSS For Homepage END */
+
+/*-----------------------------------------*/
+/*-----------------------------------------*/
+/*-----------------------------------------*/
+
+
+/* CSS For Journey */
+
+.First_Explain {
+    height: 200px;
+    width: 50%;
+    float: left;
+    padding: 30px;
+    text-align: center;
+}
+
+.Side_List {
+    width: 30%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* CSS For Journey END*/
+
+/*-----------------------------------------*/
+/*-----------------------------------------*/
+/*-----------------------------------------*/
+
+/* CSS For Future */
+
+.FutureVision {
+    padding: 50px;
+    background-color: rgb(53, 49, 49);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    color: #dce4e4;
+    width: 50%;
+}
+
+.goal-list { 
+    margin-top: 15px;
+    padding-left: 20px; 
+} 
+
+.quote { 
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #e67878; 
+    margin-top: 20px; 
+} 
+
+.Quote3 { 
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto; 
+}
+
+
+
+/* CSS For Future END*/
