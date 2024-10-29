@@ -3,11 +3,11 @@
 <head>
      <meta charset="UTF-8">
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <title>Homepage</title><!--Headline-->
+     <title>Homepage</title>
      <link rel="stylesheet" href="mystyle.css">
 </head>
 <body>
-     <header class="Header"> <!--Top Border--><!--New-->
+     <header class="Header">
          <h1> 🙏🏼 Welcome to My CSTU Story 🙏🏼 </h1>
      </header>
 
@@ -25,16 +25,16 @@
         </ul>
      </nav>
 
-     <section id="Let Start With"><!--option selection--><!--New-->
+     <section id="Let Start With"><!--option selection-->
          <h1>Let Start With Select Something Below</h1><!--Top Letter+Picture-->
          <img src="resources/image2.JPEG" alt="Description of the image" width="300" class="HomePictureRight">
-         <select id="content-selector"><!--New-->
+         <select id="content-selector">
              <option value="none" selected>Select an Option</option>
              <option value="mystory">My Old Story</option>
              <option value="mypersonal">My Personal</option>
              <option value="mystyle">My Style</option>
          </select>
-         <div id="content-display"><!--tag-->
+         <div id="content-display">
              <div id="mystory" class="content" style="display:none;">
                  <h3>My Old Story</h3><!--Choose 1 consequences-->
                  <p>I am a person who lives an ordinary life. There is nothing special at almost all times that past away. I have a family in my house, a small 
@@ -55,7 +55,7 @@
          </div>
      </section>
 <!--Vdo-->
-     <section id="intro"><!--tag-->
+     <section id="intro">
          <h2></h2>
          <video controls width="600" height="400"poster="resources/video-cover.jpg">
              <source src="resources/myvdo.mp4" type="video/mp4">
@@ -68,7 +68,7 @@
                 I'd like to introduce myself to everyone.</h4>
          </h3>
      </section>
-<!--Select Content--><!--New-->
+<!--Select Content-->
      <script>
         document.getElementById('content-selector').addEventListener('change', function() {
              var selectedValue = this.value;

@@ -1,5 +1,5 @@
 
-/* CSS For Global */
+/* CSS For Mobile First */
 
 body, h1, h2, p {
     margin: 0;
@@ -54,7 +54,7 @@ header {
     text-decoration: none;
     transition: color 0.3s;
 }
-/* CSS For Global END*/
+/* CSS For Mobile First END*/
 
 /*-----------------------------------------*/
 /*-----------------------------------------*/
@@ -98,6 +98,21 @@ section {
 /*-----------------------------------------*/
 /*-----------------------------------------*/
 
+/* CSS Media For Tablet */
+@media (min-width: 768px) {
+    
+}
+/* CSS Media For Tablet END */
+
+/* CSS Media For Desktop */
+@media (min-width: 1024px) {
+
+}
+/* CSS Media For Desktop END*/
+
+/*-----------------------------------------*/
+/*-----------------------------------------*/
+/*-----------------------------------------*/
 
 /* CSS For Journey */
 
