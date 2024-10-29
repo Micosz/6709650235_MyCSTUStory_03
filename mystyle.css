@@ -44,12 +44,6 @@ body {
     margin-right: 7px;
 }
 
-.UnOrderlistbar {
-    list-style: none;
-    margin: 0;
-    padding: 20px;
-}
-
 .Link-Text {
     display: block;
     margin-top: 10px;
@@ -58,6 +52,12 @@ body {
     font-weight: bold;
     text-decoration: none;
     transition: color 0.3s;
+}
+
+.myvideo {
+    margin-left: 27%;
+    width: 200px;
+    height: 400px;
 }
 /* CSS For Mobile First END*/
 
