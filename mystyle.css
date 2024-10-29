@@ -1,7 +1,7 @@
 
 /* CSS For Mobile First */
 
-body, h1, h2, p {
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -15,28 +15,33 @@ body {
     color: #d6d1d1;
 }
 
-header {
-    background: #855940;
-    color: #fff;
-    padding: 1em 0;
+.Header {
+    background-color: #333;
+    color: white;
     text-align: center;
-    color: rgb(33, 231, 155);
-    position: sticky;
-    top: 0px;
+    padding: 1rem;
+    font-size: 10px;
 }
 
 .Navigationbar {
-    position: sticky;
-    top: 0px;
-    background-color: #cea05b;
-    padding: 15px;
-    text-align: center;
-    float: left;
-    width: 10%;
-    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-color: #f8f2f2;
+    padding: 1rem;
+}
+
+.Navigationbar li {
     list-style: none;
-    margin: 0;
-    padding: 0;
+}
+
+.NavigationText a {
+    color: rgb(12, 11, 11);
+    display: flex;
+    align-items: center;
+}
+
+.NavigationText img {
+    margin-right: 7px;
 }
 
 .UnOrderlistbar {
@@ -100,13 +105,13 @@ section {
 
 /* CSS Media For Tablet */
 @media (min-width: 768px) {
-    
+
 }
 /* CSS Media For Tablet END */
 
 /* CSS Media For Desktop */
 @media (min-width: 1024px) {
-
+    
 }
 /* CSS Media For Desktop END*/
 
