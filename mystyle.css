@@ -8,7 +8,7 @@
 }
 
 body {
-    background-image: url(resources/Background.jpg);
+    background-image: url(resources/Background-Phone.jpg);
     font-family: Garamond, serif;
     line-height: 1.6;
     background-color: #f4f4f4;
@@ -80,6 +80,7 @@ section {
     padding: 20px;
     margin: 0 auto;
     max-width: 800px;
+    color: #0f0c0c;
 }
 
 .HomeIGLink {
@@ -111,6 +112,11 @@ section {
 
 /* CSS Media For Tablet */
 @media (min-width: 768px) {
+    
+    body {
+        background-image: url(resources/Background-Tablet.jpg);
+    }
+
     .Navigationbar {
         position: sticky;
         top: 0px;
@@ -166,6 +172,11 @@ section {
 
 /* CSS Media For Desktop */
 @media (min-width: 1024px) {
+
+    body {
+        background-image: url(resources/Background-Desktop.jpg);
+    }
+
     .Navigationbar {
         position: sticky;
         top: 0px;
@@ -216,9 +227,9 @@ section {
     }
 
     .myvideo {
-        width: 300px; /* Set your desired width */
-        height: auto; /* Maintain aspect ratio */
-        margin-left: 20px; /* Add some space between the video and the image */
+        width: 700px;
+        height: 500px;
+        margin-left: 20px;
         margin-top: 100px;
     }
 
@@ -231,6 +242,7 @@ section {
         background: rgba(255, 255, 255, 0.9);
         padding: 10px;
         box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+        display: block;
     }
     
     .sidebar-images img {
