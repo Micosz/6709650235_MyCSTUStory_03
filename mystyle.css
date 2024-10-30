@@ -99,6 +99,10 @@ section {
     justify-content: center;
 }
 
+.floating-sidebar {
+    display: none;
+}
+
 /* CSS For Homepage END */
 
 /*-----------------------------------------*/
@@ -144,6 +148,7 @@ section {
 
     .HomePictureRight{
         width: 350px;
+        height: 400px;
     }
 
     .HomeIGLink {
